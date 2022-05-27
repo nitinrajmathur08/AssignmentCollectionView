@@ -12,7 +12,7 @@ struct ListData: Codable {
 
 // MARK: - Page
 struct Page: Codable {
-    let title, totalContentItems, pageNum, pageSize: String
+    var title, totalContentItems, pageNum, pageSize: String
     
     var contentItems: ContentItems
     

@@ -12,12 +12,13 @@
 		FE9DB944282E6CBF00281525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9DB942282E6CBF00281525 /* Main.storyboard */; };
 		FE9DB946282E6CC100281525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9DB945282E6CC100281525 /* Assets.xcassets */; };
 		FE9DB949282E6CC100281525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9DB947282E6CC100281525 /* LaunchScreen.storyboard */; };
+		FEB8915A2840713500E18613 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB891592840713500E18613 /* ListViewModel.swift */; };
+		FEB8915D28408F7700E18613 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB8915C28408F7700E18613 /* ListCell.swift */; };
 		FEB92189282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE1.json in Resources */ = {isa = PBXBuildFile; fileRef = FEB92186282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE1.json */; };
 		FEB9218A282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE3.json in Resources */ = {isa = PBXBuildFile; fileRef = FEB92187282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE3.json */; };
 		FEB9218B282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE2.json in Resources */ = {isa = PBXBuildFile; fileRef = FEB92188282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE2.json */; };
 		FEB991B2282F9EDD00C952B6 /* AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB991B1282F9EDD00C952B6 /* AssignmentTests.swift */; };
 		FEB991BB282FB62900C952B6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB991B9282FB62900C952B6 /* ListViewController.swift */; };
-		FEB991BC282FB62900C952B6 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB991BA282FB62900C952B6 /* ListCell.swift */; };
 		FEB991BF282FB63500C952B6 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB991BE282FB63500C952B6 /* ListData.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,13 +40,14 @@
 		FE9DB945282E6CC100281525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE9DB948282E6CC100281525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE9DB94A282E6CC100281525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB891592840713500E18613 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		FEB8915C28408F7700E18613 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		FEB92186282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE1.json"; sourceTree = "<group>"; };
 		FEB92187282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE3.json"; sourceTree = "<group>"; };
 		FEB92188282EA47A0059E65B /* CONTENTLISTINGPAGE-PAGE2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE2.json"; sourceTree = "<group>"; };
 		FEB991AF282F9EDD00C952B6 /* AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB991B1282F9EDD00C952B6 /* AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTests.swift; sourceTree = "<group>"; };
 		FEB991B9282FB62900C952B6 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		FEB991BA282FB62900C952B6 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		FEB991BE282FB63500C952B6 /* ListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				FE9DB93C282E6CBF00281525 /* AppDelegate.swift */,
+				FEB89158284070EB00E18613 /* ViewModel */,
 				FEB991BD282FB63500C952B6 /* Model */,
 				FEB991B8282FB62900C952B6 /* View */,
 				FEB92185282EA47A0059E65B /* API */,
@@ -99,6 +102,22 @@
 				FE9DB94A282E6CC100281525 /* Info.plist */,
 			);
 			path = Assignment;
+			sourceTree = "<group>";
+		};
+		FEB89158284070EB00E18613 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FEB891592840713500E18613 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FEB8915B28408F7700E18613 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FEB8915C28408F7700E18613 /* ListCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		FEB92185282EA47A0059E65B /* API */ = {
@@ -123,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				FEB991B9282FB62900C952B6 /* ListViewController.swift */,
-				FEB991BA282FB62900C952B6 /* ListCell.swift */,
+				FEB8915B28408F7700E18613 /* TableViewCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,7 +261,8 @@
 			files = (
 				FE9DB93D282E6CBF00281525 /* AppDelegate.swift in Sources */,
 				FEB991BB282FB62900C952B6 /* ListViewController.swift in Sources */,
-				FEB991BC282FB62900C952B6 /* ListCell.swift in Sources */,
+				FEB8915A2840713500E18613 /* ListViewModel.swift in Sources */,
+				FEB8915D28408F7700E18613 /* ListCell.swift in Sources */,
 				FE9DB93F282E6CBF00281525 /* SceneDelegate.swift in Sources */,
 				FEB991BF282FB63500C952B6 /* ListData.swift in Sources */,
 			);

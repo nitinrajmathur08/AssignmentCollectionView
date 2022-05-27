@@ -37,16 +37,13 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="267" height="384"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h1e-Tf-Q2V">
-                                                            <rect key="frame" x="0.0" y="0.0" width="267" height="400.66666666666669"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="267" height="379"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="h1e-Tf-Q2V" secondAttribute="height" multiplier="320:480" id="qte-J5-Rik"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpR-Pi-aT6">
-                                                            <rect key="frame" x="0.0" y="405.66666666666669" width="267" height="40"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="40" id="y5J-eK-zdi"/>
-                                                            </constraints>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpR-Pi-aT6">
+                                                            <rect key="frame" x="0.0" y="384" width="267" height="0.0"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.7803921568627451" green="0.792156862745098" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -58,6 +55,7 @@
                                                         <constraint firstItem="h1e-Tf-Q2V" firstAttribute="leading" secondItem="il7-bI-GNq" secondAttribute="leading" id="AAB-NT-nLk"/>
                                                         <constraint firstItem="h1e-Tf-Q2V" firstAttribute="top" secondItem="il7-bI-GNq" secondAttribute="top" id="CGe-7l-q2L"/>
                                                         <constraint firstAttribute="trailing" secondItem="h1e-Tf-Q2V" secondAttribute="trailing" id="Gia-TK-GjE"/>
+                                                        <constraint firstAttribute="bottom" secondItem="jpR-Pi-aT6" secondAttribute="bottom" id="H8v-TC-G4Q"/>
                                                         <constraint firstAttribute="trailing" secondItem="jpR-Pi-aT6" secondAttribute="trailing" id="uMI-q5-HW4"/>
                                                     </constraints>
                                                 </view>
